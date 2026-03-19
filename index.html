@@ -1,141 +1,31 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Market Snapshot</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 14px;
-      background: #0f1115;
-      font-family: Arial, sans-serif;
-      color: #e5e7eb;
+<div class="card">
+  <div class="label">KOSPI</div>
+  <div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <script src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
+    {
+      "symbol": "KRX:069500",
+      "width": "100%",
+      "isTransparent": true,
+      "colorTheme": "dark",
+      "locale": "kr"
     }
-    .section-title {
-      font-size: 13px;
-      font-weight: 700;
-      color: #9ca3af;
-      margin: 18px 4px 8px;
-      letter-spacing: 0.4px;
-    }
-    .section-title:first-of-type {
-      margin-top: 0;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 12px;
-    }
-    .card {
-      background: #161a22;
-      border: 1px solid #262b36;
-      border-radius: 12px;
-      padding: 10px;
-      box-sizing: border-box;
-      min-height: 110px;
-    }
-    .label {
-      font-size: 12px;
-      font-weight: 700;
-      margin-bottom: 8px;
-      color: #9ca3af;
-      letter-spacing: 0.3px;
-    }
-  </style>
-</head>
-<body>
-
-  <div class="section-title">미국</div>
-  <div class="grid">
-    <div class="card">
-      <div class="label">S&P 500</div>
-      <div class="tradingview-widget-container">
-        <div class="tradingview-widget-container__widget"></div>
-        <script src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
-        {
-          "symbol": "AMEX:SPY",
-          "width": "100%",
-          "isTransparent": true,
-          "colorTheme": "dark",
-          "locale": "kr"
-        }
-        </script>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="label">NASDAQ 100</div>
-      <div class="tradingview-widget-container">
-        <div class="tradingview-widget-container__widget"></div>
-        <script src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
-        {
-          "symbol": "NASDAQ:QQQ",
-          "width": "100%",
-          "isTransparent": true,
-          "colorTheme": "dark",
-          "locale": "kr"
-        }
-        </script>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="label">RUSSELL 2000</div>
-      <div class="tradingview-widget-container">
-        <div class="tradingview-widget-container__widget"></div>
-        <script src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
-        {
-          "symbol": "AMEX:IWM",
-          "width": "100%",
-          "isTransparent": true,
-          "colorTheme": "dark",
-          "locale": "kr"
-        }
-        </script>
-      </div>
-    </div>
+    </script>
   </div>
+</div>
 
-  <div class="section-title">한국</div>
-  <div class="grid">
-    <div class="card">
-      <div class="label">KOSPI</div>
-      <div style="font-size:12px;color:#6b7280;">심볼 교체 예정</div>
-    </div>
-
-    <div class="card">
-      <div class="label">KOSDAQ</div>
-      <div style="font-size:12px;color:#6b7280;">심볼 교체 예정</div>
-    </div>
+<div class="card">
+  <div class="label">KOSDAQ</div>
+  <div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <script src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
+    {
+      "symbol": "KRX:229200",
+      "width": "100%",
+      "isTransparent": true,
+      "colorTheme": "dark",
+      "locale": "kr"
+    }
+    </script>
   </div>
-
-  <div class="section-title">일본</div>
-  <div class="grid">
-    <div class="card">
-      <div class="label">NIKKEI 225</div>
-      <div style="font-size:12px;color:#6b7280;">심볼 교체 예정</div>
-    </div>
-  </div>
-
-  <div class="section-title">홍콩</div>
-  <div class="grid">
-    <div class="card">
-      <div class="label">HANG SENG</div>
-      <div class="tradingview-widget-container">
-        <div class="tradingview-widget-container__widget"></div>
-        <script src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
-        {
-          "symbol": "HSI:HSI",
-          "width": "100%",
-          "isTransparent": true,
-          "colorTheme": "dark",
-          "locale": "kr"
-        }
-        </script>
-      </div>
-    </div>
-  </div>
-
-</body>
-</html>
+</div>
